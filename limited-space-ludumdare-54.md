@@ -23,15 +23,15 @@ as the new adam & eve of this planet!
 ## General
 - Enemies claim the map grid by grid
 - Player can interrupt enemy claim
--- If enemy started to claim a grid, 
+..- If enemy started to claim a grid, 
 
 - Enemy can't claim little area if player is in it.
--- If player weakened, enemy can claim player's space
--- If player vulnerable, enemy can claim player's space
+..- If player weakened, enemy can claim player's space
+..- If player vulnerable, enemy can claim player's space
 
 - Enemy has shield during round for x second.
--- If enemy shield run off when player hit, player can hit enemy
--- If enemy hit player, enemy spawn random location
+..- If enemy shield run off when player hit, player can hit enemy
+..- If enemy hit player, enemy spawn random location
 
 - Both sides can fire, 4-way shoot
 
@@ -50,20 +50,20 @@ TODO
 ## Powerups
 ### Player Power-ups
 - Increase speed (S),
--- Duration, 5 seconds 
+..- Duration, 5 seconds 
 - Freeze the enemies for a short time (T), 
--- Duration, 3 seconds 
+..- Duration, 3 seconds 
 - Give a random weapon to shoot the enemies (L), 
--- Duration, 10 seconds 
+..- Duration, 10 seconds 
 - Kill all the enemies instantly (C) or grant a weapon to kill the enemy (a red tomato only found in blocks with the red light).
 
 ### Enemy Power-ups
 - Increase speed (S)
--- Duration, 5 seconds
+..- Duration, 5 seconds
 - Prevent the shield from counting down for a little while (P), 
--- Duration, 10 seconds
+..- Duration, 10 seconds
 - Give a random weapon to shoot the player (L), 
--- Duration, 10 seconds
+..- Duration, 10 seconds
 - Kill all the player instantly (C) or grant a weapon to kill the player (a red tomato only found in blocks with the red light).
 
 # Game Difficulity
@@ -71,7 +71,7 @@ TODO
 
 ## Easy difficulty
 - Enemy speed indicator multiplies by 1
--- If last 1 min current speed indicator multiplies by 1.25
+..- If last 1 min current speed indicator multiplies by 1.25
 - Enemy shiled indicator multiplies by 1
 - Enemy power-ups time indicator multiplies by 1
 - Player power-ups time indicator multiplies by 2
@@ -80,16 +80,16 @@ TODO
 
 ## Medium difficulty
 - Enemy speed indicator multiplies by 1.5
--- If last 1 min current speed indicator multiplies by 1.25
+..- If last 1 min current speed indicator multiplies by 1.25
 - Enemy shiled indicator multiplies by 1.5
 - Enemy power-ups time indicator multiplies by 1.5
 - Player power-ups time indicator multiplies by 1.75
 - Player must have %25 unclaimed space
--- Player currency gain indicator multiplies by 1.25
+..- Player currency gain indicator multiplies by 1.25
 
 ## Hard difficulty
 - Enemy speed indicator multiplies by 2
--- If last 1 min current speed indicator multiplies by 1.50
+..- If last 1 min current speed indicator multiplies by 1.50
 - Enemy shiled indicator multiplies by 1.5
 - Enemy power-ups time indicator multiplies by 1.5
 - Player power-ups time indicator multiplies by 1.50
@@ -98,7 +98,7 @@ TODO
 
 ## Brutal difficulity
 - Enemy speed indicator multiplies by 3
--- If last 1 min current speed indicator multiplies by 2
+..- If last 1 min current speed indicator multiplies by 2
 - Enemy shiled indicator multiplies by 3
 - Enemy power-ups time indicator multiplies by 1.5
 - Player power-ups time indicator multiplies by 1
@@ -106,14 +106,14 @@ TODO
 - Player currency gain indicator multiplies by 2
 
 # Document Change Log
-v0.0.1 - Ahmetcan İrdem, Kubilay Ege
-	- Game idea born. Volfied but reversed. Ludum-dare 54 Limited-Space
-	- Game loop and ideas
-	- Origin story added
-	- Power-up's added
-v0.0.2 - Ahmetcan İrdem
-	- Game difficulity 
-	- Power-up details added
-	- Player movement details added
+1. v0.0.1 - Ahmetcan İrdem, Kubilay Ege
+- Game idea born. Volfied but reversed. Ludum-dare 54 Limited-Space
+- Game loop and ideas
+- Origin story added
+- Power-up's added
+2. v0.0.2 - Ahmetcan İrdem
+- Game difficulity 
+- Power-up details added
+- Player movement details added
 
 
