@@ -9,119 +9,130 @@ DeifloV - They were already there
 - Target: Agender, Abimegender, Adamas, gender, Aerogender, Aesthetigender, Affectugender, Agenderflux, Alexigender, Aliusgender, Amaregender, Ambigender, Ambonec, Amicagender, Androgyne, Anesigender, Angenital, Anogender, Anongender, Antegender, Anxiegender, Apagender, Apconsugender, Astergender, Astral, gender, Autigender, Autogender, Axigender, Bigender, Biogender, Blurgender, Boyflux, Burstgender, Caelgender, Cassgender, Cassflux, Cavusgender, Cendgender, Ceterogender, Ceterofluid, Cisgender, Cloudgender, Collgender, Colorgender, Commogender, Condigender, Deliciagender, Demifluid, Demiflux, Demigender, Domgender, Duragender, Egogender, Epicene, Esspigender, Exgender, Existigender, Femfluid, Femgender, Fluidflux, Gemigender, Genderblank, Genderflow, Genderfluid, Genderfuzz, Genderflux, Genderpuck, Genderqueer, Witchgender, Girlflux, Healgender, Mirrorgender, Omnigender, Midcore and Hardcore Gamers
 - Age: 13+
 
-   Volfied but reversed, enemies claim area. Player has to interrupt enemy to claim that space. When player has not enough space, round ends. At the new round player can spend gained score/gold/coin in shop to buy powerups/weapons. Each weapon/powerup can be used by limited time. Enemies can die but they spawn after 10 seconds. Each round up to 5 min max. Last 1 min rush for enemies, enemies gains boost for speed and shield. Each enemy has different shield timer. Enemies using shield while staying or moving on the edges. If they start to claim the space, shield will run off and be vulnerable.  
+   Volfied but reversed: Enemies claim territory, and the player must interrupt them to reclaim that space. When the player runs out of space, the round ends. In the new round, the player can spend their gained score, gold, or coins in the shop to purchase power-ups and weapons. Each weapon/power-up can be used for a limited time. Enemies can be defeated, but they respawn after 10 seconds. Each round lasts up to 5 minutes maximum, with the last 1 minute being a rush for the enemies. During this time, enemies gain a speed boost and a shield. Each enemy has a different shield timer. Enemies use their shields while staying or moving on the edges. If they start claiming the space, their shields will run out, making them vulnerable.  
 
 ## Story
-   It was a long trip the spaceship "monotros" returned to his planet, "volfied". But, volfied had already changed into ruins from invasion of aliens! At the time, he cought "sos" from underground he decided to rescue the people from the aliens.
+   It was a long trip as the spaceship "Monotros" returned to its planet, "Volfied." However, Volfied had already turned into ruins due to an alien invasion! At that time, they received an "SOS" signal from underground and decided to rescue the people from the aliens.
 
-   At the end...
+   In the end...
 
-   The aliens were exterminated and the spaceship monotros discovered the one survivor. They lost all things.. But, they made up their mind to make a fresh start of life as the new adam & eve of this planet!
+   The aliens were exterminated, and the spaceship Monotros discovered the lone survivor. They lost everything, but they resolved to make a fresh start in life as the new Adam and Eve of this planet!
 
-   Was there really an alien invasion?
+   But was there really an alien invasion?
 
-   The planet Volfied already had a host. The Volfiedian race lived peacefully long before humans discovered it. Due to human greed and natural resources, the planet Volfied was overrun and generations were on the brink of genocide.
+   The planet Volfied already had its inhabitants. The Volfiedian race had lived peacefully long before humans discovered it. Due to human greed and the exploitation of natural resources, the planet Volfied was overrun, and generations of Volfiedians were pushed to the brink of extinction.
 
-   The uprising did not make people happy and war broke out. The war between the human and Volfiedian races ended in defeat for the human race and the humans went into hiding underground.
+   The uprising did not bring happiness, and war erupted between the human and Volfiedian races, resulting in defeat for the humans who then went into hiding underground.
 
-   The Monotros ship once again brought the Volfiedian race to the brink of extinction and allowed the human race to flourish again.
+   The Monotros ship once again brought the Volfiedian race to the brink of extinction while allowing the human race to thrive.
 
-   But the human race has forgotten one thing. The Volfiedians had a hive mind and did not die so easily. The captain of the Monotros ship and his wife, whom he rescued, started a colonization of the new human race on the planet Volfied and the number of the human race increased.
+   However, the human race forgot one crucial thing: the Volfiedians had a hive mind and didn't die easily. The captain of the Monotros ship and his wife, whom he rescued, initiated the colonization of the new human race on the planet Volfied, leading to a significant increase in the human population.
 
-   Riwmoni was a member of the Volfidian race who, thanks to his years in hiding and the long life his race had given him, had seen the atrocities committed by the human race and dedicated himself to saving his planet. 
+   Riwmoni, a member of the Volfiedian race, thanks to his years in hiding and the long life his race had granted him, had witnessed the atrocities committed by the human race and dedicated himself to saving his planet.
 
-   What he did to the planet Monotros, Riwmoni now returns to do to humans!
+   What he had done to the planet Monotros, Riwmoni now sought to do to the humans!
 
 # Gameplay and Mechanics
 
 ## Gameplay
 
-- Enemies tries to claim area and player has to prevent to it in 5 minute playtime. If area of playground specific percantage taken by enemy, round ends. Rounds can be end by time limit too. Player gain score/gold/coin on each round. These score/gold/coin can be spend on shop for buy weapon/powerups. 
+- Enemies try to claim an area, and the player must prevent them from doing so within a 5-minute playtime. If the enemy takes a specific percentage of the playground area, the round ends. Rounds can also end due to a time limit. Players gain scores, gold, or coins at the end of each round, which can be spent in the shop to purchase weapons and power-ups.
 
 ## Purpose
 
-- Player has to prevent enemy claim grids. Enemies can use power-up and weapons. Player has to avoid enemy projectiles, when projectiles hit player round will end. 
+- The player's purpose is to prevent the enemies from claiming a specific percentage of the playing area within a 5-minute time limit. The player's goal is to defend the territory and ensure that the enemies do not achieve their objective. Additionally, the player can earn scores, gold, or coins during the game rounds, which can be used to purchase weapons and power-ups to aid in their mission of thwarting the enemy's advances.
 
 ## Mechanics
 
 ### General
 - Enemies claim the map grid by grid.
-- Player can interrupt enemy claim.
-  - If enemy started to claim a grid, become vulnerable. Player can kill enemy.
-- Enemy can't claim little area if player is in it.
-  - If player vulnerable, enemy can claim player's space
-- Enemy has shield during round for x second.
-  - If enemy shield run off when player hit, player can hit enemy
-  - If enemy hit player, enemy spawn random location
+- The player can interrupt enemy claims.
+  - If an enemy starts to claim a grid, it becomes vulnerable, and the player can eliminate it.
+- Enemies can't claim a small area if the player is in it.
+  - If the player becomes vulnerable, enemies can claim the player's space.
+- Enemies have shields during the round for x seconds.
+  - If the enemy's shield runs out when the player hits them, the player can defeat the enemy.
+  - If an enemy hits the player, the enemy spawns in a random location.	
 
 ### Player Movement & Details
-- Player cannot move on the walls or jump over on it.
-- Player can move every angle.
-- Player can buy only 3 power-up or weapon
-- Player has 3 life
-- Player can take power-ups only in un-claimed areas.
+- The player cannot move on the walls or jump over them.
+- The player can move in every direction.
+- The player can buy only 3 power-ups or weapons.
+- The player has 3 lives.
+- The player can pick up power-ups only in unclaimed areas.
 
 ### Enemy Movement & Details
-- Enemy can move on edge of the walls
-- Enemy can move forward, backward, left and right on un-claimed areas.
-- Enemies can take power-ups on areas and un-claimed areas.
+- Enemies can move on the edge of the walls.
+- Enemies can move forward, backward, left, and right on unclaimed areas.
+- Enemies can pick up power-ups in both claimed and unclaimed areas.
 
 ## Round Start
-- Before round starts, player can buy weapon and powerups.
-- Round staring in rectangular space, all enemies starts on corner of rectangular space.
-- After the 3 second countdown, round starts.
+- Before the round starts, the player can purchase weapons and power-ups.
+- The round begins in a rectangular space, with all enemies starting at the corners of the rectangular area.
+- After a 3-second countdown, the round commences.
 
 ## Round End
-- After the countdown 5 minute countdown starts.
-- When enemies hit player round ends.
-- When enemies claim specific percantage of area round ends.
+- A 5-minute countdown starts after the initial countdown.
+- The round ends when enemies hit the player.
+- The round also ends when enemies claim a specific percentage of the area.
 
 ## Powerups & Weapons
+### Obtaining Power-Ups
+- Power-ups can be obtained from Surprise Boxes. Surprise Boxes can spawn on any grid.
+- Enemies can collect Surprise Boxes by claiming the grid.
+- Players can obtain Surprise Boxes by running over them.
+- Every round, Surprise Boxes spawn every minute. Players and enemies must collect them within 10 seconds.
+  - If no one collects a Surprise Box, the next spawn time is reduced by half a minute.
+- The location of Surprise Boxes must be randomized on the map.
+  - The maximum spawn rate for Surprise Boxes is up to five.
+  - One of the Surprise Boxes contains a special item.
+  - Once a Surprise Box is collected, it cannot be collected again in the same round. If the spawn rate is 5 and one Surprise Box is taken by an enemy, the next spawn amount must be 4.
+
 ### Player Power-ups
-- Increase speed (S),
-  - Duration, 5 seconds 
-- Freeze the enemies for a short time (T), 
-  - Duration, 3 seconds 
-- Give a random weapon to shoot the enemies (L), 
-  - Duration, 10 seconds 
+- Increase speed (S)
+  - Duration: 5 seconds
+- Freeze the enemies for a short time (T)
+  - Duration: 3 seconds
+- Give a random weapon to shoot the enemies (L)
+  - Duration: 10 seconds
 - Kill all the enemies instantly (C) or grant a weapon to kill the enemy (a red tomato only found in blocks with the red light).
 
 ### Enemy Power-ups
 - Increase speed (S)
-  - Duration, 5 seconds
-- Prevent the shield from counting down for a little while (P), 
-  - Duration, 10 seconds
-- Give a random weapon to shoot the player (L), 
-  - Duration, 10 seconds
-- Kill all the player instantly (C) or grant a weapon to kill the player (a red tomato only found in blocks with the red light).
+  - Duration: 5 seconds
+- Prevent the shield from counting down for a little while (P)
+  - Duration: 10 seconds
+- Give a random weapon to shoot the player (L)
+  - Duration: 10 seconds
+- Kill the player instantly (C) or grant a weapon to kill the player (a red tomato only found in blocks with the red light).
 
 ### Weapons & Store Items
 - 4-Way Shoot: Four sides can fire. (Enemy)
-  - Only enemy can has this item.
-  - Duration, 30 seconds.
-  - Ammo, infinite.
-  - Recoil, 1 seconds.
-  - Obtainable in Suprise Box
+  - Only enemies can have this item.
+  - Duration: 30 seconds.
+  - Ammo: Infinite.
+  - Recoil: 1 second.
+  - Obtainable in Surprise Box
 - Defensive Lasers: One side firearm. (Enemy)
-  - Only enemy can has this item.
-  - Duration, 30 seconds.
+  - Only enemies can have this item.
+  - Duration: 30 seconds.
 - Laser Gun: One side firearm. (Player)
-  - Only player can has this item.
-  - Duration, until round ends.
-  - Ammo, infinite.
-  - Recoil, 1 seconds.
-  - Obtainable in Suprise Box
-- Homing Missle: Enemy Tracing Missle (Player)
-  - Only player can has this item.
-  - Duration, until round ends.
-  - Ammo, 3 projectile.
-  - Recoil, 10 seconds.
-  - Obtainable in Suprise Box
+  - Only players can have this item.
+  - Duration: until the round ends.
+  - Ammo: Infinite.
+  - Recoil: 1 second.
+  - Obtainable in Surprise Box
+- Homing Missile: Enemy Tracing Missile (Player)
+  - Only players can have this item.
+  - Duration: until the round ends.
+  - Ammo: 3 projectiles.
+  - Recoil: 10 seconds.
+  - Obtainable in Surprise Box
 
 # Game Difficulity
 - Difficulity Factor (Easy, Medium, Hard, Brutal) 
 
-## Easy difficulty
+## Easy Difficulty
 - Enemy speed indicator multiplies by 1
   - If last 1 min current speed indicator multiplies by 1.25
 - Enemy shiled indicator multiplies by 1
@@ -130,7 +141,7 @@ DeifloV - They were already there
 - Player must have %20 unclaimed space
 - Player currency gain indicator multiplies by 1
 
-## Medium difficulty
+## Medium Difficulty
 - Enemy speed indicator multiplies by 1.5
   - If last 1 min current speed indicator multiplies by 1.25
 - Enemy shiled indicator multiplies by 1.5
@@ -139,7 +150,7 @@ DeifloV - They were already there
 - Player must have %25 unclaimed space
   - Player currency gain indicator multiplies by 1.25
 
-## Hard difficulty
+## Hard Difficulty
 - Enemy speed indicator multiplies by 2
   - If last 1 min current speed indicator multiplies by 1.50
 - Enemy shiled indicator multiplies by 1.5
@@ -148,7 +159,7 @@ DeifloV - They were already there
 - Player must have %30 unclaimed space
 - Player currency gain indicator multiplies by 1.50
 
-## Brutal difficulity
+## Brutal Difficulity
 - Enemy speed indicator multiplies by 3
   - If last 1 min current speed indicator multiplies by 2
 - Enemy shiled indicator multiplies by 3
@@ -175,3 +186,5 @@ DeifloV - They were already there
 - Summary and Gameplay 
 4. **v0.0.4** - *Ahmetcan İrdem*
 - Story reversed
+5. **v0.0.5** - *Ahmetcan İrdem*
+- Spelling and grammar fixes
