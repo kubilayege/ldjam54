@@ -11,10 +11,26 @@ DeifloV - They were already there
 
    Volfied but reversed, enemies claim area. Player has to interrupt enemy to claim that space. When player has not enough space, round ends. At the new round player can spend gained score/gold/coin in shop to buy powerups/weapons. Each weapon/powerup can be used by limited time. Enemies can die but they spawn after 10 seconds. Each round up to 5 min max. Last 1 min rush for enemies, enemies gains boost for speed and shield. Each enemy has different shield timer. Enemies using shield while staying or moving on the edges. If they start to claim the space, shield will run off and be vulnerable.  
 
-## Story - **_TODO_**
-   It was a long trip the spaceship "monotros" returned to his planet, "volfied" but, volfied had already changed into ruins from invasion of aliens at the time, he cought "sos" from underground he decided to rescue the people from the aliens.  
+## Story
+   It was a long trip the spaceship "monotros" returned to his planet, "volfied". But, volfied had already changed into ruins from invasion of aliens! At the time, he cought "sos" from underground he decided to rescue the people from the aliens.
 
-   The aliens were exterminated and the spaceship monotros discovered the one survivor. They lost all things.. But, they made up their mind to make a fresh start of life as the new adam & eve of this planet!  
+   At the end...
+
+   The aliens were exterminated and the spaceship monotros discovered the one survivor. They lost all things.. But, they made up their mind to make a fresh start of life as the new adam & eve of this planet!
+
+   Was there really an alien invasion?
+
+   The planet Volfied already had a host. The Volfiedian race lived peacefully long before humans discovered it. Due to human greed and natural resources, the planet Volfied was overrun and generations were on the brink of genocide.
+
+   The uprising did not make people happy and war broke out. The war between the human and Volfiedian races ended in defeat for the human race and the humans went into hiding underground.
+
+   The Monotros ship once again brought the Volfiedian race to the brink of extinction and allowed the human race to flourish again.
+
+   But the human race has forgotten one thing. The Volfiedians had a hive mind and did not die so easily. The captain of the Monotros ship and his wife, whom he rescued, started a colonization of the new human race on the planet Volfied and the number of the human race increased.
+
+   Riwmoni was a member of the Volfidian race who, thanks to his years in hiding and the long life his race had given him, had seen the atrocities committed by the human race and dedicated himself to saving his planet. 
+
+   What he did to the planet Monotros, Riwmoni now returns to do to humans!
 
 # Gameplay and Mechanics
 
@@ -157,4 +173,5 @@ DeifloV - They were already there
 - Enemy and Player Movement Added
 - Mechanics section opened
 - Summary and Gameplay 
-
+4. **v0.0.4** - *Ahmetcan İrdem*
+- Story reversed
