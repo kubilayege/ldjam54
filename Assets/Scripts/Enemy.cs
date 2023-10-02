@@ -1,11 +1,14 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
 
 public class Enemy : MonoBehaviour
 {
     [SerializeField] private GameGrid gameGrid;
     private Vector2Int _currentPosition;
+    private bool isInClaimState;
+    
     private void Start()
     {
         transform.position = gameGrid.GridElements[0, 0].transform.position + Vector3.up;
@@ -13,6 +16,12 @@ public class Enemy : MonoBehaviour
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene("Game");
+            return;
+        }
+        
         if(Input.anyKeyDown)
         {
             var direction = (Vector2.right * (Input.GetAxis("Horizontal")) +
@@ -33,13 +42,26 @@ public class Enemy : MonoBehaviour
 
         Debug.Log(vector2Int);
 
-        if (!gameGrid.IsPositionInGrid(newPosition)) return;
-        
+        if (!gameGrid.IsInGrid(newPosition)) return;
+        if (!gameGrid.IsPositionIsAClaim(newPosition) && !isInClaimState)
+        {
+            transform.position += new Vector3(vector2Int.x, 0f, vector2Int.y);
+            _currentPosition = newPosition;
+
+            return;
+        }
+        if (!isInClaimState)
+        {
+            gameGrid.InitEnemyClaimMove(this, _currentPosition);
+            isInClaimState = true;
+        }
         transform.position += new Vector3(vector2Int.x, 0f, vector2Int.y);
 
-        gameGrid.UpdateGridWall(newPosition);
+        var isClaimOver = gameGrid.TrackEnemyMovement(this, newPosition);
 
         _currentPosition = newPosition;
+
+        if (isClaimOver) isInClaimState = false;
     }
     
 }
