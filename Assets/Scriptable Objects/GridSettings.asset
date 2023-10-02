@@ -12,8 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7eca109128cf4a6f833fdedef53b66ff, type: 3}
   m_Name: GridSettings
   m_EditorClassIdentifier: 
-  gridSize: {x: 16, y: 12}
+  gridSize: {x: 50, y: 25}
   gridScale: 1
   gridElementPrefab: {fileID: 4125501809802927416, guid: f9a686c2b5bceb14db749687821b10ee,
     type: 3}
   gridOffset: {x: 0, y: 0, z: 0}
+  cameraSetting:
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+    fov: 0
