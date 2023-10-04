@@ -9,7 +9,6 @@ public class GridSettings : ScriptableObject
     public float gridScale;
     public GridElement gridElementPrefab;
     public Action OnGridUpdated;
-    public Action<Vector2Int> UpdateGridWall;
     public Vector3Int gridOffset;
 
     public CameraSetting cameraSetting;

@@ -28,6 +28,7 @@ public partial class GridElement : MonoBehaviour
     private GridElementState lastGridElementState;
     public Vector2Int index;
     public bool IsBorder;
+    private int _activeModelIndex;
 
     public void Init(GridElementOptions gridElementOptions, GridElementState gridElementState, Vector2Int gridIndex, bool isBorder = false)
     {
@@ -72,12 +73,10 @@ public partial class GridElement : MonoBehaviour
 
     private void SwitchModel(int index)
     {
-        foreach (var gridElementModel in gridElementModels)
-        {
-            gridElementModel.SetActive(false);
-        }
+        gridElementModels[_activeModelIndex].SetActive(false);
 
         gridElementModels[index].SetActive(true);
+        _activeModelIndex = index;
     }
 
     public void TempWall()

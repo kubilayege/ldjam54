@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.Profiling;
 using UnityEngine.Serialization;
 using Random = UnityEngine.Random;
 
@@ -18,15 +19,15 @@ public class GameGrid : SingletonBehaviour<GameGrid>
     protected override void Awake()
     {
         gridSettings.OnGridUpdated = GenerateGrid;
-        gridSettings.UpdateGridWall = UpdateGridWall;
         GenerateGrid();
     }
 
-    public void UpdateGridWall(Vector2Int index)
+    public void UpdateGridWall(Vector2Int index, bool updateAll = false)
     {
         GridElements[index.x, index.y].UpdateGridWall(GetGridNeighbourData(index.x, index.y));
 
-        UpdateGridElements();
+        if(updateAll)
+            UpdateGridElements();
     }
 
     public bool TrackEnemyMovement(Enemy enemy, Vector2Int index)
@@ -36,16 +37,35 @@ public class GameGrid : SingletonBehaviour<GameGrid>
 
         if (gridElement.CurrentGridElementState == GridElementState.Wall)
         {
+            Profiler.BeginSample("ClaimAreaSearch");
             enemyData.currentElement.Add(gridElement);
             FinishEnemyMoveData(enemyData);
             var claimAreaWalls = FindClaimArea(enemyData);
+            Profiler.EndSample();
 
-            foreach (var claimArea in claimAreaWalls)
+            Profiler.BeginSample("ClaimWalls");
+
+            for (var i = 0; i < claimAreaWalls.Count; i++)
             {
+                var claimArea = claimAreaWalls[i];
                 UpdateGridWall(claimArea.index);
             }
+            
+            Profiler.EndSample();
+
+            
+            Profiler.BeginSample("ClaimCleanupLeftOver");
 
             CleanupLeftOverWalls();
+            
+            Profiler.EndSample();
+            
+            
+            Profiler.BeginSample("ClaimUpdateAll");
+
+            UpdateGridElements();
+
+            Profiler.EndSample();
 
             EnemyMoveDatas.Remove(enemyData);
             return true;
@@ -60,12 +80,15 @@ public class GameGrid : SingletonBehaviour<GameGrid>
 
     private void CleanupLeftOverWalls()
     {
-        foreach (var gridElement in GridElements)
+        for (var x = 0; x < GridElements.GetLength(0); x++)
+        for (var y = 0; y < GridElements.GetLength(1); y++)
         {
+            var gridElement = GridElements[x, y];
             var neighbours = GetNeighbourGridElements(gridElement.index);
             var isIsolated = true;
-            foreach (var neighbour in neighbours)
+            for (var index = 0; index < neighbours.Length; index++)
             {
+                var neighbour = neighbours[index];
                 if (neighbour == null) continue;
                 if (neighbour.CurrentGridElementState != GridElementState.Wall) isIsolated = false;
             }
@@ -285,7 +308,7 @@ public class GameGrid : SingletonBehaviour<GameGrid>
             finalTempBorders.Add(tempBorders[0]);
         }
 
-        finalTempBorders.Sort((list, list2) => list.Count > list2.Count ? 1 : 0);
+        finalTempBorders.Sort((list, list2) => list.Count < list2.Count ? 1 : 0);
         enemyMoveData.currentElement = finalTempBorders[0];
         currentKnownBorders.Add(enemyMoveData);
     }
@@ -440,7 +463,6 @@ public class GameGrid : SingletonBehaviour<GameGrid>
     private void OnDisable()
     {
         gridSettings.OnGridUpdated = null;
-        gridSettings.UpdateGridWall = null;
     }
 
     public bool IsInGrid(Vector2Int newPosition)
