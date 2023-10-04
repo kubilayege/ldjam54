@@ -106,7 +106,7 @@ DeifloV - They were already there
   - Duration: 10 seconds
 - Kill the player instantly (C) or grant a weapon to kill the player (a red tomato only found in blocks with the red light).
 
-### Weapons & Store Items
+### Weapons
 - 4-Way Shoot: Four sides can fire. (Enemy)
   - Only enemies can have this item.
   - Duration: 30 seconds.
@@ -118,16 +118,46 @@ DeifloV - They were already there
   - Duration: 30 seconds.
 - Laser Gun: One side firearm. (Player)
   - Only players can have this item.
-  - Duration: until the round ends.
+  - Duration: until the round ends. 
   - Ammo: Infinite.
   - Recoil: 1 second.
-  - Obtainable in Surprise Box
+  - Obtainable in Surprise Box (%10 Chance)
+    - Duration: 30 seconds if obtained in surprise box.
 - Homing Missile: Enemy Tracing Missile (Player)
   - Only players can have this item.
   - Duration: until the round ends.
   - Ammo: 3 projectiles.
   - Recoil: 10 seconds.
-  - Obtainable in Surprise Box
+  - Obtainable in Surprise Box (%5 Chance)
+    - Duration: 30 seconds if obtained in surprise box.
+
+### Protective Items 
+- Shield: Protective (Player)
+  - Duration: 10 seconds.
+  - Obtainable in Surprise Box (%25 Chance)
+- Speed Boots: Speed booster boots (Player)
+  - Duration: 5 seconds.
+  - Speed Increase: 1.25x
+  - Obtainable in Surprise Box (%25 Chance)
+- Freeze Gun: Freezes Enemy and Removes Enemy Projectiles
+  - Duration: 3 seconds
+  - OBtainable in Surprise Box (%25 Chance)
+
+# Currency
+
+- 300 seconds of gameplay.
+  - Every 2 second player earn 1 coin.
+  - Each enemy kill equals to 2 coin.
+- If player not dead till the end of round, 150 coin will generated.
+- If player kill enemy continusly approximately 120 coin can be gained.
+- 250-300 coin can be generated if player plays perfectly.
+
+## Store Items
+- Laser Gun: 750 coin.
+- Homming Missle: 1500 coin.
+- Shield: 150 coin.
+- Speed Boots: 250 coin.
+- Freeze Gun: 500 coin.
 
 # Game Difficulity
 - Difficulity Factor (Easy, Medium, Hard, Brutal) 
@@ -188,3 +218,5 @@ DeifloV - They were already there
 - Story reversed
 5. **v0.0.5** - *Ahmetcan İrdem*
 - Spelling and grammar fixes
+6. **v0.0.6** - *Ahmetcan İrdem*
+- Currency, Shop and Items Added
